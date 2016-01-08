@@ -1,0 +1,6 @@
+Learnings
+
+API
+- Testar a query que você quer direto no browser antes de começar a construir o resto
+- URL tem que colocar http:// antes do endereço, se não fica no local
+- Ver qual é o type correto: GET ou POST
