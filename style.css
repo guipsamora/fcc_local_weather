@@ -1,0 +1,20 @@
+body {
+   background-image:url("https://images.unsplash.com/photo-1432057322224-8916b9ed202a?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=96ba854e20bae187d58f5a150ef331f6");
+   background-size: 100%;
+   font-size: 30px;
+   font-family: Helvetica;
+   text-align: center;
+}
+
+#back {
+   margin-top: 80px;
+}
+
+.button{
+   font-size: 20px;
+   font-color: black;
+   border-radius: 20%;
+   border-width: 2px;
+   border-color: black;
+   background: white;
+}

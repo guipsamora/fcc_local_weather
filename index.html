@@ -3,13 +3,21 @@
 <head>
    <meta charset="UTF-8">
    <title>Document</title>
-   <style type="text/css" href="style.css"></style>
-   <style type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"></style>
+   <!-- styles -->
+   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-   <p id="startLat"></p>
-   <p id="startLon"></p>
-   <button id="weather">Tell me weather</button>
+   <div id="back">
+      <p id="place"></p>
+      <p id="descr"></p>
+      <p id="temperature"></p>
+      <div id="container">
+         <button type="button" id="celsius" class="button">ºC</button>
+         <button type="button" id="fahrenheit" class="button">ºF</button>
+      </div>
+   </div>
+
+   <!-- scripts -->
    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
    <script src="script.js"></script>
 </body>
